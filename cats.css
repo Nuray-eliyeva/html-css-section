@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.contain{
+    width:100%;
+    display: flex;
+ 
+    background-color: rgb(13, 9, 51);
+    color: azure;
+}
+.left{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+gap:20px;
+    align-items: center;
+    padding: 40px 30px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.top{
+    height:50vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 10px;
+}
+button{
+    background-color: rgb(13, 9, 51);
+    color: azure;
+    width:150px;
+    height:35px;
+    border: 2px solid azure;
+}
+
